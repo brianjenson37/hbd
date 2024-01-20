@@ -1,0 +1,90 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(255, 245, 233);
+}
+
+.banner {
+    background: url("https://wallpapersmug.com/download/3840x2160/3e5de8/red-hearts-shape-abstract-love.jpg")
+        no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: rgb(237, 255, 149);
+}
+
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 155, 155);
+}
+
+.lingkaran i {
+    position: relative;
+    top: 30px;
+}
+
+.crop-img {
+    object-fit: cover;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.card-img-top {
+    width: 200px; /* Atur lebar tetap */
+    height: 400px; /* Atur tinggi tetap */
+    object-fit: cover;
+    margin: auto;
+    border-radius: 5%;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.clearfix img{
+    width: 40%; /* Atur lebar tetap */
+    height: 40%; /* Atur tinggi tetap */
+    object-fit: cover;
+    margin: auto;
+    border-radius: 20%;
+}
+
+.clearfix p {
+    text-align: justify;
+    width: 50%;
+}
+
+.clearfix h4 {
+    padding-top: 50px;
+}
+
+a.social {
+    display: contents;
+    color: green;
+    border-radius: 0%;
+    background-color: gray;
+}
+
+.ucapan p {
+    text-align: justify;
+    padding-inline: 10%;
+}
+  
