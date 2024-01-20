@@ -14,10 +14,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <audio id="myAudio" src="assets/hbdsong.mp3">
+    </audio>
     <!-- navigasi -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg sticky-top">
         <div class="container">
-          <a class="navbar-brand" href="#">21th.</a>
+          <a class="navbar-brand" href="#" onclick="playAudio()">21th.</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -252,6 +254,11 @@
           }
         }
     </script>
-      
+    <script>
+        function playAudio() {
+            var audio = document.getElementById("myAudio");
+            audio.play();
+        }
+    </script>
 </body>
 </html>
