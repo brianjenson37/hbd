@@ -15,6 +15,9 @@ body {
     background-color: rgb(255, 245, 233);
 }
 
+.btn-lg {
+    background-color: rgb(255, 139, 139);
+}
 .banner {
     background: url("https://wallpapersmug.com/download/3840x2160/3e5de8/red-hearts-shape-abstract-love.jpg")
         no-repeat center center;
@@ -45,6 +48,7 @@ body {
     width: auto;
     height: auto;
     margin: auto;
+    background-color: rgb(255, 245, 233);
 }
 
 .card-img-top {
@@ -74,6 +78,12 @@ body {
 
 .clearfix h4 {
     padding-top: 50px;
+}
+
+.container-fluid iframe {
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 
 a.social {
