@@ -19,6 +19,7 @@ body {
     background-color: rgb(255, 139, 139);
     border-radius: 50%;
 }
+
 .banner {
     background: url("https://wallpapersmug.com/download/3840x2160/3e5de8/red-hearts-shape-abstract-love.jpg")
         no-repeat center center;
@@ -41,6 +42,10 @@ body {
 .lingkaran i {
     position: relative;
     top: 30px;
+}
+
+.memories div {
+    border-radius: 20px;
 }
 
 .crop-img {
